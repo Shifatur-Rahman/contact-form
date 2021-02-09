@@ -80,7 +80,7 @@ textarea{
 
 .btn{
 	width: 45%;
-	padding: 1rem 1rem;
+	padding: 2rem 1rem;
 	background-color: #00001a !important;
 	color: #fff !important;
 	font-size: 15px;
@@ -96,6 +96,14 @@ textarea{
 }
 
 
+
+
+@media screen and (max-width: 1200px){
+	.left{
+		height: 300px;
+	}
+}
+
 @media screen and (max-width: 1000px){
 	.contact-box{
 		grid-template-columns: 1fr;
@@ -108,9 +116,11 @@ textarea{
 	}
 }
 
+
+
 @media screen and (max-width: 768px){
 	.left{
-		height: 280px;
+		height: 260px;
 	}
 }
 @media screen and (max-width: 500px){
